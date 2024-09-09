@@ -1,0 +1,167 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-size: 14px;
+    color: hsl(219, 12%, 42%);
+    background:  hsl(210, 60%, 98%);
+    font-family: "plus jakarta sans",sans-serif;
+}
+.container{
+    max-width: 860px;
+    margin: 30px auto;
+    
+}
+.wrapper{
+    margin: 30px;
+    padding: 20px 15px 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 26px -13px rgba(0, 0,0, 26);
+    background-color: #fff;
+}
+.top-box{
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    color: hsl(224, 21%, 14%);
+    margin-bottom: 20px;
+
+}
+.title-text{
+    font-size: 25px;
+    color: hsl(224, 21%, 14%);
+    font-weight: 800px;
+}
+p.number{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    background-color:hsl(219, 85%, 26%);
+    padding: 3px 12px;
+    border-radius: 5px;
+}
+.title{
+display: flex;
+align-items: center;
+color: white;
+}
+a.read
+{
+    text-decoration: none;
+    color: hsl(219, 14%, 63%);
+    font-size: 15px;
+}
+/* .box-text p{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+} */
+.avatar img{
+    width: 50px;
+    margin-right: 20px;
+ 
+}
+.single-box{
+    align-items: center;
+    padding: 14px;
+    margin: 12px 0;
+    display: flex;
+}
+p.notify{
+    justify-content: space-between;
+}
+p .title-text{
+    font-weight: 800;
+    font-size: 21px;
+}
+.single-box.unseen{
+    background:hsl(210, 60%, 98%);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+a.name{
+    color: hsl(224, 21%, 14%);
+    text-decoration: none;
+    font-weight: 800;
+}
+a.post
+{
+ color:hsl(219, 85%, 26%);
+ font-weight: 800;   
+}
+a.group{
+    color:  hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+.time{
+    margin-top: 10px;
+    color: lightgray;
+}
+.message{
+   display: flex; 
+   align-items: center;
+   margin-top: 10px;
+   font-size: 15px;
+   border: 2px solid hsl(211, 68%, 94%);
+   padding: 20px 20px;
+   border-radius: 10px;
+   background:  hsl(210, 60%, 98%);
+}
+span.dot{
+    font-size: 80px; 
+    background-color: red;
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    border-radius: 50px;
+    margin-left: 8px;
+
+}
+.left{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.with-msg{
+    align-items:flex-start;
+}
+.single-box.comment{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.chess img{
+    width: 50px;
+}
+a .game{
+    color:  hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+@media only screen and (max-width:600px) {
+    body{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .container{
+        margin: 20px 0px;
+    }
+    .wrapper{
+        margin: 10px;
+        padding: 25px 15px 0px;
+
+    }
+    p.number{
+        font-size:10px;
+        margin-left: 1px;
+    }
+
+}
